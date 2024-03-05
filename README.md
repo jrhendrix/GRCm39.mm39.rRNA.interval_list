@@ -25,7 +25,7 @@ Generating this file required two steps:
 The index file must have a `SAM` header, which provides meta information on the included sequence records. This information was already available from a bam file (which had to be converted to sam) output by the Star alignment step. 
 
 ### Identifying the rRNA intervals
-To identify the rRNA intervals for GRCm39, I used the Table Browser from Genome Browser, following the search instructions detailed by Luis Nassar [here](https://groups.google.com/a/soe.ucsc.edu/g/genome/c/WMHhIc6l068). The correct data columns had to be extracted and rearranged to generate the correct tab-separated format: sequence name, start position, end position, strand, interval name. 
+To identify the rRNA intervals for GRCm39, I used the Table Browser from Genome Browser, following the search instructions detailed by Luis Nassar [here](https://groups.google.com/a/soe.ucsc.edu/g/genome/c/WMHhIc6l068). The correct data columns had to be extracted and rearranged to generate the required tab-separated format: sequence name, start position, end position, strand, interval name. 
 
 ## References
 * Conesa, Ana, et al. "A survey of best practices for RNA-seq data analysis." Genome biology 17.1 (2016): 1-19.
